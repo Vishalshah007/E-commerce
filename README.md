@@ -53,6 +53,6 @@ Check out the live demo of KickEAStore at [kickeastore.netlify.app](https://kick
 
 ## Contributing
 
-We welcome contributions to enhance and improve KickEAStore. Feel free to open issues or pull requests on our [GitHub repository](https://github.com/Vishalshah007/kickeastore).
+We welcome contributions to enhance and improve KickEAStore. Feel free to open issues or pull requests on our [GitHub repository](https://github.com/Vishalshah007/E-commerce).
 
 Happy shopping with KickEAStore! 👟🎉
