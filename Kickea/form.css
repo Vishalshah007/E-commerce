@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap');
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(115deg, #60a3d9 10%, #9f01ea 90%);
+    height: 80vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 550;
+}
+
+.container {
+    background-color: white;
+    width: 25rem;
+    height: 23rem;
+    text-align: center;
+    padding: 2.3rem;
+    box-shadow: 5px 5px 5px rgba(8, 8, 32, 0.313);
+    border-radius: 1rem;
+}
+
+input {
+    width: 22.95rem;
+    height: 2.2rem;
+    margin: 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #a7a7a7;
+    margin-left: -1rem;
+    letter-spacing: 0.4px;
+}
+
+label {
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: flex-start;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    float: left;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    color: white;
+    background: linear-gradient(115deg, #60a3d9 10%, #9f01ea 90%);
+    width: 23.5rem;
+    height: 2.7rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    margin: 1.3rem;
+    margin-left: -10px;
+}
+
+button:hover {
+    transition: all .3s ease-in-out;
+    background: linear-gradient(115deg, #85b1d6 10%, #a854cf 100%);
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 72%;
+    }
+
+    .container {
+        height: 290px;
+    }
+
+    input {
+        padding: 4px;
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    button{
+        font-size: 15px;
+    }
+}

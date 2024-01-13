@@ -20,9 +20,9 @@
           </div>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Account</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#latest">Latest</a></li>
+            <li><a href="./form.html" target="_blank">Account</a></li>
           </ul>
         </nav>
         <div class="hero">
@@ -38,7 +38,7 @@
             Consistent hard work gains success. Greatness will come.
           </p>
           <div class="btn-shop">
-            <button class="btn">SHOP NOW</button>
+            <button class="btn" onclick="shop()">SHOP NOW</button>
           </div>
         </div>
       </header>
@@ -53,7 +53,7 @@
 
       <section class="products">
         <div class="container">
-          <h2>Featured Products</h2>
+          <h2 id="products">Featured Products</h2>
           <span class="line"> <hr /> </span>
           <div class="feat-pro">
             <div class="content">
@@ -109,7 +109,7 @@
         </div>
 
         <div class="container">
-          <h2>Latest Products</h2>
+          <h2 id="latest">Latest Products</h2>
           <span class="line"> <hr /> </span>
           <div class="feat-pro">
             <div class="content">
@@ -157,7 +157,7 @@
             </p>
             <br /><br />
             <div class="btn-off">
-              <button class="btn-text">Buy &#8377;23000</button>
+              <button class="btn-text" onclick="alert('Product Added')">Buy &#8377;23000</button>
             </div>
           </div>
         </div>
@@ -207,7 +207,7 @@
       </section><br>
 
       <section class="companys">
-        <marquee behavior="scroll" direction="left" scrollamount="10">
+        <marquee behavior="scroll" direction="left" scrollamount="12"> 
           <div class="brands">
             <div class="logo">
               <img src="./images/puma.png" alt="puma" class="comp-1" />
@@ -297,5 +297,6 @@
         <p>Copyright © 2023 - Kickea</p>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
