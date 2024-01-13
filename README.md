@@ -1,4 +1,4 @@
-# KickEAStore E-commerce Project
+# KickeaStore E-commerce Project
 
 Welcome to KickEAStore, a stylish and responsive e-commerce website built with HTML, CSS, and JavaScript. In just two weeks, we've crafted a user-friendly platform for all your sneaker shopping needs.
 
@@ -53,6 +53,6 @@ Check out the live demo of KickEAStore at [kickeastore.netlify.app](https://kick
 
 ## Contributing
 
-We welcome contributions to enhance and improve KickEAStore. Feel free to open issues or pull requests on our [GitHub repository](https://github.com/yourusername/kickeastore).
+We welcome contributions to enhance and improve KickEAStore. Feel free to open issues or pull requests on our [GitHub repository](https://github.com/Vishalshah007/kickeastore).
 
 Happy shopping with KickEAStore! 👟🎉
