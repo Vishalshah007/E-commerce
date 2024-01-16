@@ -158,7 +158,6 @@ hr {
 
 .content {
     transition: transform 0.5s;
-    position: relative;
 }
 
 .content:hover {
@@ -353,24 +352,30 @@ footer {
     html {
         font-size: 30%;
     }
+
     footer {
         height: 25vh;
         font-size: 20px;
     }
-    .comp-1{
+
+    .comp-1 {
         width: 45px;
         height: 30px;
     }
-    .logo{
+
+    .logo {
         padding: 10px;
     }
-    .back{
+
+    .back {
         height: 35vh;
     }
-    .navbar li a{
+
+    .navbar li a {
         font-size: 10px;
     }
-    .hero-1{
+
+    .hero-1 {
         width: 150px;
     }
 }
